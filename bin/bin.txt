@@ -1,0 +1,70 @@
+
+      <!-- Service 04 -->
+      <div class="service-card">
+
+        <div class="service-number">04</div>
+
+        <div class="service-icon">
+          ↗
+        </div>
+
+        <h3>SEO & Optimization</h3>
+
+        <p>
+          Improve website performance, visibility, and
+          search engine presence with smart optimization.
+        </p>
+
+        <a href="#contact" class="service-link">
+          Learn More <span>→</span>
+        </a>
+
+      </div>
+
+
+      <!-- Service 05 -->
+      <div class="service-card">
+
+        <div class="service-number">05</div>
+
+        <div class="service-icon">
+          ⚡
+        </div>
+
+        <h3>Performance</h3>
+
+        <p>
+          Optimized digital experiences with fast loading
+          times and smooth performance on every device.
+        </p>
+
+        <a href="#contact" class="service-link">
+          Learn More <span>→</span>
+        </a>
+
+      </div>
+
+
+      <!-- Service 06 -->
+      <div class="service-card">
+
+        <div class="service-number">06</div>
+
+        <div class="service-icon">
+          ◎
+        </div>
+
+        <h3>Maintenance & Support</h3>
+
+        <p>
+          Continuous updates, improvements, security, and
+          technical support to keep your website running.
+        </p>
+
+        <a href="#contact" class="service-link">
+          Learn More <span>→</span>
+        </a>
+
+      </div>
+
+    </div>

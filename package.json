@@ -1,0 +1,26 @@
+{
+  "name": "techybro",
+  "version": "1.0.0",
+  "description": "### Technology solutions for ambitious startups.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node obfuscate.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/techbuildzoneteam/TechyBro.git"
+
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/techbuildzoneteam/TechyBro/issues"
+  },
+  "homepage": "https://github.com/techbuildzoneteam/TechyBro#readme",
+  "devDependencies": {
+    "chokidar": "^5.0.0",
+    "javascript-obfuscator": "^5.8.1"
+  }
+}

@@ -1,0 +1,779 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechyBro</title>
+    <!-- #05ff00 -->
+     <script src="js/App.js" defer></script>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="shortcut icon" href="assets/logo_1.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Overlay -->
+  <div class="nav-overlay" id="navOverlay"></div>
+
+  <!-- Navbar -->
+  <nav class="navbar" id="navbar">
+
+    <a href="index.html" class="logo">
+      Techy<span>Bro</span>
+    </a>
+
+    <ul class="nav-menu" id="navMenu">
+
+      <li>
+        <a href="#home">Home</a>
+      </li>
+
+      <li>
+        <a href="#about">About</a>
+      </li>
+
+      <li>
+        <a href="#services">Services</a>
+      </li>
+
+      <li>
+        <a href="#pricing">Billing</a>
+      </li>
+
+      <li>
+        <a href="#footer">Contact</a>
+      </li>
+
+    </ul>
+
+    <!-- Mobile menu button -->
+    <button
+      class="menu-toggle"
+      id="menuToggle"
+      aria-label="Toggle navigation"
+      aria-expanded="false"
+    >
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+
+  </nav>
+
+
+
+
+  <section class="hero" id="home">
+
+  <div class="hero-content">
+
+    <div class="hero-badge">
+      <span></span>
+      We build digital experiences
+    </div>
+
+    <h1>
+      We Create
+      <span>Digital Solutions</span>
+      That Grow Your Business.
+    </h1>
+
+    <p>
+      From stunning websites to powerful web applications,
+      we design and develop fast, modern, and scalable digital
+      solutions tailored to your business.
+    </p>
+
+    <div class="hero-buttons">
+      <a href="#services" class="btn-primary">
+        Explore Our Services
+        <span>→</span>
+      </a>
+
+      <a href="#footer" class="btn-secondary">
+        Let's Talk
+      </a>
+    </div>
+
+    <div class="hero-services">
+
+      <div class="service-item">
+        <strong>01</strong>
+        <span>Web Development</span>
+      </div>
+
+      <div class="service-item">
+        <strong>02</strong>
+        <span>UI / UX Design</span>
+      </div>
+
+      <div class="service-item">
+        <strong>03</strong>
+        <span>Web Applications</span>
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+
+
+
+
+
+<!-- ================= SERVICES ================= -->
+
+<section class="services" id="services">
+
+  <div class="services-container">
+
+    <div class="section-heading">
+
+      <div class="section-badge">
+        <span></span>
+        What We Do
+      </div>
+
+      <h2>
+        Services Built For
+        <span>Your Business.</span>
+      </h2>
+
+      <p>
+        We create modern digital solutions that help businesses
+        build their online presence, improve user experience,
+        and grow faster.
+      </p>
+
+    </div>
+
+
+    <div class="services-grid">
+
+      <!-- Service 01 -->
+      <div class="service-card">
+
+        <div class="service-number">01</div>
+
+        <div class="service-icon">
+          &lt;/&gt;
+        </div>
+
+        <h3>Web Development</h3>
+
+        <p>
+          Fast, responsive, and scalable websites built
+          around your business goals and customers.
+        </p>
+
+        <a href="#pricing" class="service-link">
+          Learn More <span>→</span>
+        </a>
+
+      </div>
+
+
+      <!-- Service 02 -->
+      <div class="service-card">
+
+        <div class="service-number">02</div>
+
+        <div class="service-icon">
+          ✦
+        </div>
+
+        <h3>UI / UX Design</h3>
+
+        <p>
+          Clean and intuitive interfaces designed to create
+          engaging experiences across every device.
+        </p>
+
+        <a href="#pricing" class="service-link">
+          Learn More <span>→</span>
+        </a>
+
+      </div>
+
+
+      <!-- Service 03 -->
+      <div class="service-card">
+
+        <div class="service-number">03</div>
+
+        <div class="service-icon">
+          ◇
+        </div>
+
+        <h3>Web Applications</h3>
+
+        <p>
+          Powerful web applications designed to simplify
+          workflows and solve real business problems.
+        </p>
+
+        <a href="#pricing" class="service-link">
+          Learn More <span>→</span>
+        </a>
+
+      </div>
+
+
+
+  </div>
+
+</section>
+
+
+
+
+
+
+
+
+
+<!-- ================= ABOUT ================= -->
+
+<section class="about" id="about">
+
+  <div class="about-container">
+
+    <!-- Left Content -->
+    <div class="about-content">
+
+      <div class="section-badge">
+        <span></span>
+        About Us
+      </div>
+
+      <h2>
+        We Turn Ideas Into
+        <span>Digital Experiences.</span>
+      </h2>
+
+      <p class="about-intro">
+        We are a digital development team focused on creating
+        modern, reliable, and high-performing digital solutions
+        for businesses and individuals.
+      </p>
+
+      <p>
+        From the first idea to the final product, we combine
+        thoughtful design, clean development, and modern
+        technology to create experiences that are simple,
+        effective, and built to last.
+      </p>
+
+      <a href="#pricing" class="about-button">
+        Work With Us
+        <span>→</span>
+      </a>
+
+    </div>
+
+
+    <!-- Right Side -->
+    <div class="about-visual">
+
+      <div class="about-main-card">
+
+        <div class="about-card-icon">
+          ✦
+        </div>
+
+        <h3>
+          Building Digital
+          <span>Possibilities.</span>
+        </h3>
+
+        <p>
+          Design. Development. Innovation.
+        </p>
+
+      </div>
+
+
+      <!-- Floating cards -->
+
+      <div class="about-stat stat-top">
+        <strong>100%</strong>
+        <span>Responsive</span>
+      </div>
+
+      <div class="about-stat stat-bottom">
+        <strong>24/7</strong>
+        <span>Digital Support</span>
+      </div>
+
+
+      <!-- Decorative circle -->
+
+      <div class="about-circle"></div>
+
+    </div>
+
+  </div>
+
+
+  <!-- Values -->
+
+  <div class="about-values">
+
+    <div class="value-item">
+      <div class="value-icon">✓</div>
+
+      <div>
+        <h4>Quality First</h4>
+        <p>We focus on quality in every detail.</p>
+      </div>
+    </div>
+
+
+    <div class="value-item">
+      <div class="value-icon">⚡</div>
+
+      <div>
+        <h4>Modern Technology</h4>
+        <p>We use modern tools and development practices.</p>
+      </div>
+    </div>
+
+
+    <div class="value-item">
+      <div class="value-icon">◎</div>
+
+      <div>
+        <h4>Client Focused</h4>
+        <p>Your goals guide everything we build.</p>
+      </div>
+    </div>
+
+  </div>
+
+</section>
+
+
+
+<!-- ================= PRICING ================= -->
+
+<section class="pricing" id="pricing">
+
+  <div class="pricing-container">
+
+    <div class="pricing-heading">
+
+      <div class="section-badge">
+        <span></span>
+        Pricing Plans
+      </div>
+
+      <h2>
+        Simple Pricing.
+        <span>Powerful Results.</span>
+      </h2>
+
+      <p>
+        Choose a package that fits your needs.
+        Every plan is designed to deliver quality,
+        performance, and a professional digital presence.
+      </p>
+
+    </div>
+
+
+    <div class="pricing-grid">
+
+      <!-- ================= BASIC ================= -->
+
+      <div class="pricing-card">
+
+        <div class="pricing-card-top">
+
+          <span class="pricing-label">
+            Basic
+          </span>
+
+          <h3>Starter</h3>
+
+          <p>
+            Perfect for individuals and small businesses
+            getting started online.
+          </p>
+
+        </div>
+
+        <div class="price">
+          <small>LKR</small>
+          25,000
+        </div>
+
+        <div class="price-note">
+          One-time payment
+        </div>
+
+
+        <div class="pricing-divider"></div>
+
+
+        <ul class="features">
+
+          <li>
+            <span>✓</span>
+            1–5 Page Website
+          </li>
+
+          <li>
+            <span>✓</span>
+            Responsive Design
+          </li>
+
+          <li>
+            <span>✓</span>
+            Modern UI Design
+          </li>
+
+          <li>
+            <span>✓</span>
+            Contact Form
+          </li>
+
+          <li>
+            <span>✓</span>
+            Basic SEO
+          </li>
+
+          <li>
+            <span>✓</span>
+            Social Media Integration
+          </li>
+
+          <li class="disabled">
+            <span>×</span>
+            Custom Web Application
+          </li>
+
+          <li class="disabled">
+            <span>×</span>
+            Advanced Features
+          </li>
+
+        </ul>
+
+
+        <a
+          href="https://wa.me/94752158832"
+          target="_blank"
+          class="pricing-button"
+        >
+          Contact on WhatsApp
+          <span>→</span>
+        </a>
+
+      </div>
+
+
+      <!-- ================= STANDARD ================= -->
+
+      <div class="pricing-card featured">
+
+        <div class="popular">
+          Most Popular
+        </div>
+
+        <div class="pricing-card-top">
+
+          <span class="pricing-label">
+            Standard
+          </span>
+
+          <h3>Business</h3>
+
+          <p>
+            A complete solution for growing businesses
+            that need a professional online presence.
+          </p>
+
+        </div>
+
+        <div class="price">
+          <small>LKR</small>
+          50,000
+        </div>
+
+        <div class="price-note">
+          One-time payment
+        </div>
+
+
+        <div class="pricing-divider"></div>
+
+
+        <ul class="features">
+
+          <li>
+            <span>✓</span>
+            Up to 10 Pages
+          </li>
+
+          <li>
+            <span>✓</span>
+            Premium UI / UX Design
+          </li>
+
+          <li>
+            <span>✓</span>
+            Fully Responsive
+          </li>
+
+          <li>
+            <span>✓</span>
+            Advanced Contact Forms
+          </li>
+
+          <li>
+            <span>✓</span>
+            SEO Optimization
+          </li>
+
+          <li>
+            <span>✓</span>
+            Google Analytics
+          </li>
+
+          <li>
+            <span>✓</span>
+            Social Media Integration
+          </li>
+
+          <li>
+            <span>✓</span>
+            Performance Optimization
+          </li>
+
+        </ul>
+
+
+        <a
+          href="https://wa.me/94752158832"
+          target="_blank"
+          class="pricing-button"
+        >
+          Contact on WhatsApp
+          <span>→</span>
+        </a>
+
+      </div>
+
+
+      <!-- ================= PREMIUM ================= -->
+
+      <div class="pricing-card">
+
+        <div class="pricing-card-top">
+
+          <span class="pricing-label">
+            Premium
+          </span>
+
+          <h3>Advanced</h3>
+
+          <p>
+            For businesses that need advanced features,
+            custom functionality, and scalability.
+          </p>
+
+        </div>
+
+        <div class="price">
+          <small>LKR</small>
+          100,000+
+        </div>
+
+        <div class="price-note">
+          Custom project pricing
+        </div>
+
+
+        <div class="pricing-divider"></div>
+
+
+        <ul class="features">
+
+          <li>
+            <span>✓</span>
+            Unlimited Pages
+          </li>
+
+          <li>
+            <span>✓</span>
+            Premium UI / UX
+          </li>
+
+          <li>
+            <span>✓</span>
+            Custom Web Application
+          </li>
+
+          <li>
+            <span>✓</span>
+            Database Integration
+          </li>
+
+          <li>
+            <span>✓</span>
+            User Authentication
+          </li>
+
+          <li>
+            <span>✓</span>
+            Advanced SEO
+          </li>
+
+          <li>
+            <span>✓</span>
+            API Integrations
+          </li>
+
+          <li>
+            <span>✓</span>
+            Priority Support
+          </li>
+
+        </ul>
+
+
+        <a
+          href="https://wa.me/94752158832"
+          target="_blank"
+          class="pricing-button"
+        >
+          Discuss Your Project
+          <span>→</span>
+        </a>
+
+      </div>
+
+    </div>
+
+
+    <!-- WhatsApp CTA -->
+
+    <div class="pricing-contact">
+
+      <div class="whatsapp-icon">
+        ☎
+      </div>
+
+      <div>
+        <strong>Need a custom package?</strong>
+
+        <p>
+          Tell us what you need and we'll create
+          a package specifically for your project.
+        </p>
+      </div>
+
+      <a
+        href="https://wa.me/94752158832"
+        target="_blank"
+      >
+        WhatsApp Us →
+      </a>
+
+    </div>
+
+  </div>
+
+</section>
+
+
+
+
+<!-- ================= FOOTER ================= -->
+
+<footer class="footer" id="footer">
+
+  <div class="footer-container">
+
+    <!-- Brand -->
+    <div class="footer-brand">
+
+      <a href="#home" class="footer-logo">
+        Techy<span>Bro</span>
+      </a>
+
+      <p>
+        We create modern websites, web applications,
+        and digital experiences that help businesses grow.
+      </p>
+
+      <a href="mailto:techbuildzoneteam@gmail.com" class="footer-email">
+        techbuildzoneteam@gmail.com
+      </a>
+
+    </div>
+
+
+    <!-- Navigation -->
+    <div class="footer-column">
+
+      <h4>Navigation</h4>
+
+      <a href="#home">Home</a>
+      <a href="#services">Services</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+
+    </div>
+
+
+    <!-- Services -->
+    <div class="footer-column">
+
+      <h4>Services</h4>
+
+      <a href="#services">Web Development</a>
+      <a href="#services">UI / UX Design</a>
+      <a href="#services">Web Applications</a>
+      <a href="#services">SEO & Optimization</a>
+
+    </div>
+
+
+    <!-- Social -->
+    <!-- <div class="footer-column">
+
+      <h4>Follow Us</h4>
+
+      <a href="#" target="_blank">Instagram</a>
+      <a href="#" target="_blank">Facebook</a>
+      <a href="#" target="_blank">LinkedIn</a>
+      <a href="#" target="_blank">GitHub</a>
+
+    </div>
+
+  </div> -->
+
+
+  <!-- Bottom -->
+  <div class="footer-bottom">
+
+    <p>
+      © 2026 Techy<span>Bro</span> All rights reserved.
+    </p>
+
+    <!-- <div class="footer-bottom-links">
+      <a href="#">Privacy Policy</a>
+      <a href="#">Terms & Conditions</a>
+    </div> -->
+
+  </div>
+
+</footer>
+
+
+</body>
+</html>
