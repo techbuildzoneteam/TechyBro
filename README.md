@@ -1,8 +1,8 @@
-# 🚀 FounderMate
+# 🚀 TechyBro
 
 ### Technology solutions for ambitious startups.
 
-FounderMate is a technology services company helping micro, early-stage,
+TechyBro is a technology services company helping micro, early-stage,
 and growing startups turn ideas into real digital products.
 
 We help founders design, build, launch, and maintain the technology they
@@ -12,7 +12,7 @@ need to grow their businesses.
 
 ## 💡 What We Do
 
-FounderMate provides practical and affordable technology services for
+TechyBro provides practical and affordable technology services for
 startups that don't yet have a large technical team.
 
 ### 🖥️ Web Development
@@ -62,7 +62,7 @@ a full-time technical team.
 
 ## 🎯 Who We Help
 
-FounderMate is built for:
+TechyBro is built for:
 
 - Solo founders
 - Micro startups
